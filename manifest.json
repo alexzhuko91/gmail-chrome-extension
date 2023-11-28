@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "Gmail Extension",
+  "permissions": ["tabs"],
+  "description": "This is a Chrome extension built with React and TypeScript",
+  "action": {
+    "default_title": "Gmail Extension"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "host_permissions": ["https://mail.google.com/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/*"],
+      "matches": ["https://mail.google.com/*"]
+    }
+  ]
+}

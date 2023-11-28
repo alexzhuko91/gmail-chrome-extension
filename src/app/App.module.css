@@ -1,0 +1,43 @@
+.root {
+  position: fixed;
+  top: 20%;
+  right: 0;
+  padding-top: 1.875rem;
+  border-radius: 0.25rem 0 0 0.25rem;
+  background-color: #505762;
+  z-index: 10000;
+  transform: translateX(100%);
+  transition: transform 0.2s ease-out;
+}
+
+.rootExpanded {
+  transform: translateX(0);
+}
+
+.container {
+  padding: 1.875rem;
+  background-color: #e5ece9;
+  position: relative;
+}
+
+.layoutInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1.125rem;
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.layoutInfoItems {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 1.875rem;
+}
+
+.layoutInfoLabel {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}

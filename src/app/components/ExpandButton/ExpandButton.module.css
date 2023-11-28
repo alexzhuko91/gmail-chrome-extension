@@ -1,0 +1,16 @@
+.root {
+  cursor: pointer;
+  position: absolute;
+  appearance: none;
+  padding: 0.625rem;
+  border: none;
+  width: 4.0625rem;
+  height: 4.0625rem;
+  border-radius: 1.25rem 0 0 1.25rem;
+  left: -4.0625rem;
+  background-color: #e5ece9;
+}
+
+.image {
+  max-width: 100%;
+}
